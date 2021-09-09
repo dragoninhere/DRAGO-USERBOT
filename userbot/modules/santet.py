@@ -12,6 +12,8 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Santet Online Segera Dilakukan,Mampus Lu!!`")
     sleep(1)
+    await typew.edit("lu jamet si rasain lu")
+    sleep(1)
     await typew.edit("0%")
     number = 1
     await typew.edit(str(number) + "%   ▎")
