@@ -9,7 +9,7 @@ async def gcast(event):
         return await event.edit("`Pesannya Mana ngentot?`")
     tt = event.text
     msg = tt[6:]
-    kk = await event.edit("`Sabar Lg gua kirim tot, Limit jangan salain gua...`")
+    kk = await event.edit("`bentar lagi gw send anjing lu gosah marah kalo limit`")
     er = 0
     done = 0
     async for x in bot.iter_dialogs():
@@ -20,7 +20,7 @@ async def gcast(event):
                 await bot.send_message(chat, msg)
             except BaseException:
                 er += 1
-    await kk.edit(f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
+    await kk.edit(f"**Berhasil ngesentot Pesan Ke** `{done}` **Grup, Gagal ngesend Pesan Ke** `{er}` **Grup**")
 
 
 @register(outgoing=True, pattern=r"^\.gucast(?: |$)(.*)")
