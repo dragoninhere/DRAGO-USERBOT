@@ -40,15 +40,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^Q(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("…………(0 0)")
-                     .—oOO–(_)—–.
-                ╔═════════════════╗
-                ║     MISI KAK       ║
-                ╚═════════════════╝
-                     ‘———————-oOO
-                  ……...|__|__|
-                  ……….. || ||
-                  …….. ooO Ooo
+    await typew.edit("numpang lewat kak")
 
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
 async def typewriter(typew):
