@@ -17,6 +17,38 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("ASTAGHFIRULLAH.... GOBLOKKKKK BANGET!!!")
 
+@register(outgoing=True, pattern='^W(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("ANJAYY SLEBEWWW")
+
+@register(outgoing=True, pattern='^E(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("YBNG")
+
+@register(outgoing=True, pattern='^F(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("Hoaamm")
+
+@register(outgoing=True, pattern='^I(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("LU SEMUA KEK KONTOL")
+
+@register(outgoing=True, pattern='^Q(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("…………(0 0)")
+                     .—oOO–(_)—–.
+                ╔═════════════════╗
+                ║     MISI KAK       ║
+                ╚═════════════════╝
+                     ‘———————-oOO
+                  ……...|__|__|
+                  ……….. || ||
+                  …….. ooO Ooo
 
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
 async def typewriter(typew):
