@@ -9,9 +9,9 @@ from userbot import CMD_HELP, bot
 async def _(event):
     reply = await event.get_reply_message()
     if not (reply and (reply.media)):
-        await event.edit("`Mohon Balas Ke Sticker`")
+        await event.edit("`reply dulu ke tikelnya dongo`")
         return
-    xx = await event.edit("`Kecilin Tikell!!....`")
+    xx = await event.edit("`bentar gw kecilin`")
     ik = await bot.download_media(reply)
     im1 = Image.open("userbot/utils/styles/RAMBOT.png")
     if ik.endswith(".tgs"):
