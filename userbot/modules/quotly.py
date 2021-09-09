@@ -108,7 +108,7 @@ async def quote_search(event):
 CMD_HELP.update({
     "quotly":
     "`.q`\
-\nUsage: Membuat pesan mu menjadi sticker.\
+\nUsage: bentar gw jadiin tikel dlu ya babi.\
 \n\n`.xquote`\
 \nUsage: membuat pesan mu menjadi sticker."
 })
