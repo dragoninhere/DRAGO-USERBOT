@@ -70,7 +70,7 @@ async def redis(pong):
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**KONTOOLLLL!!**\n**KEKUATAN KONTOL** : `%sms`\n**DURASI KONTOL** : `{uptime}🕛`" % (duration))
+    await pong.edit(f"**COLIII!!**\n**KECEPATAN COLI** : `%sms`\n**DURASI NGOCOK** : `{uptime}🕛`" % (duration))
 
 
 @register(outgoing=True, pattern="^Ping$")
@@ -133,13 +133,13 @@ def speed_convert(size):
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
-    await pong.edit("PONG")
+    await pong.edit("DUARRR")
     await asyncio.sleep(1)
     await pong.edit("💥")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 9000
-    await pong.edit(f"**tuan : {ALIVE_NAME}**\n`%sms`" % (duration))
+    await pong.edit(f"**OWN TERHORMAT : {ALIVE_NAME}**\n`%sms`" % (duration))
 
 
 CMD_HELP.update({
