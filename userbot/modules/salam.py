@@ -90,6 +90,10 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("Wa'alaikumsalam kak")
 
+@register(outgoing=True, pattern='^R(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("Avv banyak jawa runnn")
 
 @register(outgoing=True, pattern='^.ast(?: |$)(.*)')
 async def typewriter(typew):
